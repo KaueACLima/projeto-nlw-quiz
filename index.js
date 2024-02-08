@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?",
-      respostas: [
-        "var myVar;",
-        "variable myVar;",
-        "v myVar;"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual desses métodos é usado para adicionar um elemento ao final de um array?",
-      respostas: [
-        "push()",
-        "pop()",
-        "concat()"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o resultado da expressão '5' + 2 em JavaScript?",
-      respostas: [
-        "7",
-        "52",
-        "NaN"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'parseInt()' faz em JavaScript?",
-      respostas: [
-        "Converte um número para uma string.",
-        "Converte uma string para um número inteiro.",
-        "Converte um número para um número inteiro."
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como você escreve um comentário de uma linha em JavaScript?",
-      respostas: [
-        "// Este é um comentário",
-        "<!-- Este é um comentário -->",
-        "/* Este é um comentário */"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Atribuição",
-        "Igualdade estrita",
-        "Igualdade solta"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a maneira correta de escrever um loop 'for' em JavaScript?",
-      respostas: [
-        "for (i = 0; i <= 5)",
-        "for (i <= 5; i++)",
-        "for (var i = 0; i <= 5; i++)"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
-      respostas: [
-        "remove()",
-        "delete()",
-        "pop()"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que o método 'toFixed()' faz em JavaScript?",
-      respostas: [
-        "Arredonda um número para o inteiro mais próximo.",
-        "Formata um número com uma quantidade específica de casas decimais.",
-        "Converte um número para uma string."
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do operador '&&' em JavaScript?",
-      respostas: [
-        "OU lógico",
-        "E lógico",
-        "OU exclusivo"
-      ],
-      correta: 1
-    }
-  ];
+  {
+    pergunta: "Qual é o Pokémon inicial da região de Kanto?",
+    respostas: [
+      "Charmander",
+      "Squirtle",
+      "Bulbasaur"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quem é o treinador principal da Equipe Rocket?",
+    respostas: [
+      "Jessie",
+      "James",
+      "Giovanni"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o tipo de Pokémon do Pikachu?",
+    respostas: [
+      "Elétrico",
+      "Normal",
+      "Fogo"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o lendário que tem o poder de controlar o tempo em Pokémon Diamond & Pearl?",
+    respostas: [
+      "Dialga",
+      "Palkia",
+      "Giratina"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual desses Pokémon é conhecido como o 'Guardião do Mar'?",
+    respostas: [
+      "Kyogre",
+      "Groudon",
+      "Rayquaza"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o número total de Pokémon até a geração 8?",
+    respostas: [
+      "800",
+      "900",
+      "1000"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual desses Pokémon é conhecido por ser capaz de megaevoluir?",
+    respostas: [
+      "Charizard",
+      "Blastoise",
+      "Venusaur"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o tipo principal do Pokémon Mewtwo?",
+    respostas: [
+      "Psíquico",
+      "Sombrio",
+      "Lutador"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem é o professor Pokémon na região de Hoenn?",
+    respostas: [
+      "Professor Oak",
+      "Professor Elm",
+      "Professor Birch"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o Pokémon lendário que simboliza a paz?",
+    respostas: [
+      "Mew",
+      "Zygarde",
+      "Celebi"
+    ],
+    correta: 2
+  }
+];
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
