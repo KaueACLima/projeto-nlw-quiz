@@ -9,3 +9,7 @@ Projeto Quiz - Teste seus conhecimentos em JavaScript
 - Github
 
 # Tema atualizado
+
+- Cores
+- Tipos de perguntas
+- Logos
