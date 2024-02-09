@@ -7,3 +7,5 @@ Projeto Quiz - Teste seus conhecimentos em JavaScript
 - CSS
 - JavaScript
 - Github
+
+# Tema atualizado
